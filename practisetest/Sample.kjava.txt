@@ -1,0 +1,18 @@
+package practisetest;
+class Parent{
+	int money=100;
+	void showmoney(){
+		System.out.println("I hava "+this.money+" reppes");
+	}
+}
+class Child extends Parent{
+	void showmoney(){
+		System.out.println("I hava "+this.money+" reppes");
+	}
+}
+class Sample{
+	public static void main(String[] args){
+		Child c1=new Child();
+		c1.showmoney();
+	}
+}

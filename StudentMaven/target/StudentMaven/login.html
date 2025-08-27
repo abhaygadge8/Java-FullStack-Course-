@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to Login Page</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .login-container {
+            background-color: white;
+            padding: 40px 30px;
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+            width: 320px;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        input[type="text"], input[type="password"] {
+            width: 90%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            font-size: 14px;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 25px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+        footer {
+      position: absolute;
+      bottom: 20px;
+      color: var(--white);
+      font-size: 0.9rem;
+      z-index: 2;
+      text-align: center;
+      width: 100%;
+    }
+        label {
+            display: block;
+            text-align: left;
+            margin-left: 15px;
+            font-weight: 500;
+        }
+        .signup-link {
+            margin-top: 20px;
+            font-size: 14px;
+        }
+        .signup-link a {
+            color: #2980b9;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .signup-link a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h1>Student Login</h1>
+        <form action="loginServlet" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <input type="submit" value="Login">
+        </form>
+
+        <!-- Signup link for new users -->
+        <div class="signup-link">
+            <p>Don't have an account? <a href="http://localhost:8080/StudentManagementSystem/signup.html">Signup for New User</a></p>
+        </div>
+    </div>
+    <footer>Student Management System © 2025 | Empowering Education Through Innovation</footer>
+</body>
+</html>

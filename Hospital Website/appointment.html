@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Book Appointment - Medico</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">Medico</div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="doctors.html">Doctors</a>
+    <a href="blog.html">Blog</a>
+    <a href="contact.html">Contact</a>
+    <a href="register.html" class="btn">Register</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-text">
+    <h1>Book an Appointment</h1>
+    <p>Schedule your appointment easily with our specialists.</p>
+  </div>
+</section>
+
+<section class="form-section">
+  <form action="#" method="POST">
+    <input type="text" name="fullname" placeholder="Full Name" required>
+    <input type="email" name="email" placeholder="Email Address" required>
+    <input type="tel" name="phone" placeholder="Phone Number" required>
+    
+    <select name="doctor" required>
+      <option value="">Select Doctor</option>
+      <option value="Dr. John Doe">Dr. John Doe - Cardiologist</option>
+      <option value="Dr. Sarah Smith">Dr. Sarah Smith - Pediatrician</option>
+      <option value="Dr. Alex Johnson">Dr. Alex Johnson - Orthopedic Surgeon</option>
+    </select>
+
+    <input type="date" name="appointment_date" required>
+
+    <textarea name="message" placeholder="Additional Message" rows="4"></textarea>
+    
+    <button type="submit" class="btn-primary">Book Appointment</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2025 Medico. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,17 @@
+Key Points:
+		
+	There are two main configurations for an equilateral triangle in a square:
+
+	The maximum side length occurs in the vertex-aligned configuration and is given by:
+		
+		s = a * (2√6 - 2√2) ≈ a * 1.035276
+	
+	The maximum side length is approximately 1.035 times the square's side length
+
+    	The optimal configuration has:
+
+        One vertex at a corner of the square
+
+        The opposite side touching the adjacent sides of the square
+
+    The height of the triangle equals the side length of the square

@@ -1,0 +1,17 @@
+Key Mathematical Concepts:
+
+    Optimal Sphere in Cube:
+
+        The largest sphere that fits inside a cube will have a diameter equal to the cube's side length
+
+        Therefore, the optimal radius = cube side length / 2
+
+    Volume Calculations:
+
+        Sphere volume: V = (4/3)πr³
+
+        Cube volume: V = side³
+
+    Volume Ratio:
+
+        The maximum possible ratio of sphere volume to cube volume is π/6 ≈ 0.5236 (52.36%)

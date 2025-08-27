@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Student Dashboard</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: linear-gradient(135deg, #c3ecf7, #f7d9e3);
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .dashboard-container {
+        background-color: #ffffff;
+        padding: 40px 30px;
+        border-radius: 15px;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        text-align: center;
+        width: 400px;
+    }
+
+    h1 {
+        color: #2c3e50;
+        margin-bottom: 30px;
+    }
+    footer {
+      position: absolute;
+      bottom: 20px;
+      color: var(--white);
+      font-size: 0.9rem;
+      z-index: 2;
+      text-align: center;
+      width: 100%;
+    }
+
+    input[type="submit"] {
+        background-color: #3498db;
+        color: white;
+        border: none;
+        padding: 12px 20px;
+        font-size: 16px;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background-color 0.3s ease-in-out;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #2a80b9;
+    }
+</style>
+</head>
+<body>
+    <div class="dashboard-container">
+        <h1>Welcome to Student Dashboard</h1>
+        <form action="studentViewServlet" method="post">
+            <input type="submit" value="View Student Detail">
+        </form>
+    </div>
+    <footer>Student Management System © 2025 | Empowering Education Through Innovation</footer>
+</body>
+</html>

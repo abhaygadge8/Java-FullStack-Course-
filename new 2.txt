@@ -1,0 +1,4 @@
+class OperatorPractise{
+	int a;
+	int b;
+}
